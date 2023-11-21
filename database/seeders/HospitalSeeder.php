@@ -12,10 +12,10 @@ class HospitalSeeder extends Seeder
 {
     private $hospitals = [
         [
-            'name' => 'Craft',
-            'code' => 'craft',
+            'name' => 'ABC Hospital',
+            'code' => 'ABC',
             'ho_location' => 'Kodungalloor',
-            'email' => 'info@craftivf.com',
+            'email' => 'info@abchospital.com',
             'phone' => '1234512345',
             'main_cols' => [
                 'name' => 'full_name',
@@ -26,15 +26,15 @@ class HospitalSeeder extends Seeder
                 'access_token' => 'EAAMk25QApioBO6SvBdiMsr5HQPmivzZA5r50OwmoQqdEGVegEk4pgNIZAWJZAWg05WM1ZCqbod3TIuI3zUrXFVykJg2BkM5UVGha67SpVkDdeCz1vF9yg6Mb6JvFtY9GzsKtZBpKmMMMtZBo0otRnc5mlzszAHYtCUtfw21vwz086LuR1YaJdVYwthNTZBCgkFpp2ZA8R2I2TgX9'
             ],
             'centers' => [
-                'Craft_Kodungallur',
-                'Craft_Kochi'
+                'abc_Kodungallur',
+                'abc_Kochi'
             ]
         ],
         [
-            'name' => 'AR',
-            'code' => 'ar',
+            'name' => 'ARF',
+            'code' => 'arf',
             'ho_location' => 'Kodungalloor',
-            'email' => 'info@armedicentre.com',
+            'email' => 'info@arfmedicalentre.com',
             'phone' => '1234512345',
             'main_cols' => [
                 'name' => 'name',
@@ -45,7 +45,7 @@ class HospitalSeeder extends Seeder
                 'access_token' => 'EAAMk25QApioBO6SvBdiMsr5HQPmivzZA5r50OwmoQqdEGVegEk4pgNIZAWJZAWg05WM1ZCqbod3TIuI3zUrXFVykJg2BkM5UVGha67SpVkDdeCz1vF9yg6Mb6JvFtY9GzsKtZBpKmMMMtZBo0otRnc5mlzszAHYtCUtfw21vwz086LuR1YaJdVYwthNTZBCgkFpp2ZA8R2I2TgX9'
             ],
             'centers' => [
-                'AR_Kodungallur'
+                'ARF_Kodungallur'
             ]
         ],
     ];

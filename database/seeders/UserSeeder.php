@@ -18,10 +18,10 @@ class UserSeeder extends Seeder
      */
     public function run(): void
     {
-        $craft = Hospital::where('name', 'Craft')->get()->first();
+        $craft = Hospital::where('name', 'ABC Hospital')->get()->first();
         $craftadmin = User::create([
-            'name' => 'Craft Admin',
-            'email' => 'cmo@ivfcraft.com',
+            'name' => 'ABC Admin',
+            'email' => 'abcadmin@demo.com',
             'designation' => 'Administrator',
             'hospital_id'=> $craft->id,
             'email_verified_at' => now(),
@@ -57,10 +57,10 @@ class UserSeeder extends Seeder
         //     $user->assignRole('agent');
         // }
 
-        $ar = Hospital::where('name', 'AR')->get()->first();
+        $ar = Hospital::where('name', 'ARF')->get()->first();
         $aradmin = User::create([
             'name' => 'AR Admin',
-            'email' => 'admin@armedicentre.com',
+            'email' => 'admin@arfmedicalentre.com',
             'designation' => 'Administrator',
             'hospital_id'=> $ar->id,
             'email_verified_at' => now(),
